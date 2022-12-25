@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Colégio Nicanor Bueno Mendes Quem somos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="principal">
+		<img src="">
+	</div>
+	<div id="menu">
+		<a href="index.html">HOME</a> |
+		<a href="quem-somos.html">Quem somos</a> |
+		<a href="noticias.html">NOTÍCIAS</a> |
+		<a href="contato.html">CONTATO</a> 
+	</div>
+
+	<div id="conteudo"> <!--Inicio do conteudo-->
+
+		<h1>Quem somos</h1>
+
+		<p>
+		O Colégio Estadual Nicanor Bueno Mendes oferta o Ensino Médio a todos os jovens de Jundiaí do Sul e tem como missão formar cidadãos para o mundo contemporâneo: protagonistas de suas escolhas acadêmicas, de seus projetos de vida e agentes transformadores de nossa sociedade.
+
+	</p>
+
+	<p>
+		Somos uma instituição de ensino que apoia o sonho de cada aluno e acredita que a conquista depende de estudo, esforço e orientação correta, em um ambiente vencedor e inspirador. 
+
+	</p>
+
+	</div> <!--Fim do conteudo-->
+
+	<div id="rodape">
+
+		<h4>Todos os direitos reservados</h4>
+
+	</div>
+
+</body>
+</html>
