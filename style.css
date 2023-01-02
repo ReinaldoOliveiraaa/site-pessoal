@@ -19,6 +19,7 @@ body {
 }
 
 #jogos {
+	<font color="#800080">This text is purple.</font>
 	background: #c5c5b2;
 	padding: 10px;
 }
