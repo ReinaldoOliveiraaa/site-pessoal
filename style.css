@@ -62,4 +62,11 @@ h4 {
 	color: #828271;
 	font-size: 1.2em;
 }
-
+{
+INPUT.MeuInput {
+     width: 10px;
+     height: 5px;
+     font-family: verdana;
+     background-color: blue;
+}
+}
