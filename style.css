@@ -63,7 +63,7 @@ h4 {
 	font-size: 1.2em;
 }
 {
-INPUT.MeuInput {
+target {
      width: 10px;
      height: 5px;
      font-family: verdana;
