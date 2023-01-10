@@ -62,4 +62,7 @@ h4 {
 	color: #828271;
 	font-size: 1.2em;
 }
-
+#videos {
+	<font color="#6495ED">This text is purple.</font>
+	background: #c5c5b2;
+	padding: 10px;
