@@ -37,26 +37,32 @@
 	</div> <!--Fim do conteudo-->
 	<div id="form"> <!--Inicio do form-->
 	       <h3>FALE COMIGO</h3>
-		            <form action="envia.php" method="post" id="contact-form">
-              <div class="messages"></div>
-              <div class="form-group form-error" data-aos="fade-up" data-aos-delay="200">
-                <input id="form_web" type="text" name="name" class="form-control" placeholder="Nome (obrigatório)"
-                  required="required">
-              </div>
-              <div class="form-group form_left form-error" data-aos="fade-up" data-aos-delay="100">
-                <input id="form_email" type="email" name="email" class="form-control" placeholder="E-mail (obrigatório)"
-                  required="required" data-error="Digite um e-mail válido.">
-                <div class="help-block with-errors"></div>
-              </div>
-              <div class="form-group form-error" data-aos="fade-up" data-aos-delay="300">
-                <textarea id="form_message" name="message" class="form-control form-textarea" placeholder="Sua mensagem"
-                  required="required" data-error="Digite sua mensagem para João Rodrigues"></textarea>
-                <div class="help-block with-errors"></div>
-                <br>
-                <button class="btn btn-green btn-large"> <span class="fa fa-envelope"></span> ENVIAR MENSAGEM </button>
-              </div>
-            </form>
-		<p>	
+		            <?php 
+
+	class Email{
+		private $nome;
+		private $assunto;
+		private $email;
+		private $mensagem;
+
+		public function setDados($nome, $assunto, $email, $mensagem){
+			$this->nome  = $nome;
+			$this->assunto = $assunto;
+			$this->email = $email;
+			$this->mensagem = $mensagem;
+		}
+		public function getDados(){
+			$imprimir = array(
+								$this->nome, 
+								$this->assunto,
+								$this->email,
+								$this->mensagem
+							);
+			print_r($imprimir);
+		}
+
+
+	}
 	</div> <!--Fim do form-->
 
 	<div id="rodape">
