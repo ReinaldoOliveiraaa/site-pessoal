@@ -66,3 +66,9 @@ h4 {
 	<font color="#6495ED">This text is purple.</font>
 	background: #c5c5b2;
 	padding: 10px;
+#form{
+    background: #fff;
+    padding: 10px 15px;
+    margin: 10px 300px;
+    border-radius: 5px;
+	}
